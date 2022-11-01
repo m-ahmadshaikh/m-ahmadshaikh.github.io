@@ -1,0 +1,61 @@
+.contact {
+  justify-content: center;
+  gap: 1em;
+  animation: fadeIn .5s;
+}
+
+.row {
+  display: flex;
+  gap: 1em;
+}
+
+.contact h3 {
+  font-size: 1.5em;
+}
+
+.contact .contact_btn {
+  padding: 10px 15px;
+  border: 1px solid #fff;
+  background-color: transparent;
+  color: #fff;
+  font-family: Quicksand;
+  font-size: 20px;
+  border-radius: 8px;
+  margin: 15px;
+  transition: all .3s ease;
+  outline: none;
+  cursor: pointer;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.contact .contact_btn:hover {
+  background-color: #fff;
+  color: #ed6663;
+}
+
+.contact h3 a {
+  color: #ed6663;
+  text-decoration: none;
+}
+
+.contact a {
+  all: unset;
+}
+
+.contact a:hover {
+  cursor: pointer;
+  ;
+  color: #ed6663
+}
+
+@keyframes fadeIn {
+  0% {
+    transform: translateY(20px);
+  }
+
+  100% {
+    transform: translateY(0);
+
+  }
+}
