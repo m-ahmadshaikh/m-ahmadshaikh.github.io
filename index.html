@@ -94,6 +94,27 @@
         /* Lists in Experience */
         .job-details li { margin-bottom: 8px; font-size: 0.95rem; }
 
+        /* Scrollable Certifications List */
+        .scrollable-list {
+            max-height: 500px;
+            overflow-y: auto;
+            padding-right: 10px;
+        }
+        /* Custom scrollbar for better look */
+        .scrollable-list::-webkit-scrollbar {
+            width: 6px;
+        }
+        .scrollable-list::-webkit-scrollbar-track {
+            background: #f1f1f1; 
+        }
+        .scrollable-list::-webkit-scrollbar-thumb {
+            background: #ccc; 
+            border-radius: 3px;
+        }
+        .scrollable-list::-webkit-scrollbar-thumb:hover {
+            background: #00a2ff; 
+        }
+
         /* Calendly Widget Override */
         .calendly-badge-content { background: #00a2ff !important; }
     </style>
@@ -382,12 +403,33 @@
                     <div class="card shadow-sm border-0 mb-4">
                         <div class="card-body">
                             <h5 class="card-title">Certifications</h5>
-                            <ul class="list-unstyled">
-                                <li class="mb-2">🏆 Intro to Machine Learning with PyTorch Nanodegree</li>
-                                <li class="mb-2">🏆 React - The Complete Guide (Hooks, Router, Redux)</li>
+                            <ul class="list-unstyled scrollable-list">
+                                <li class="mb-2">🏆 Shopify Development Fundamentals: Verified Skill Badge (2025)</li>
+                                <li class="mb-2">🏆 Solution Planning Fundamentals: Verified Skill Badge (2025)</li>
+                                
+                                <li class="mb-2">🏆 Microsoft Certified: Azure Fundamentals (2020)</li>
+                                <li class="mb-2">🏆 HackerRank: Problem Solving (Basic) Certificate</li>
+                                <li class="mb-2">🏆 TestDome: REACT Public Test</li>
+                                
+                                <li class="mb-2">🏆 Udacity: Intro to Machine Learning with PyTorch Nanodegree</li>
+                                <li class="mb-2">🏆 Udemy: React - The Complete Guide (Hooks, Router, Redux)</li>
+                                <li class="mb-2">🏆 Udemy: Understanding TypeScript - 2022 Edition</li>
+                                <li class="mb-2">🏆 Udemy: The Web Developer Bootcamp 2022</li>
+                                <li class="mb-2">🏆 Scrimba: The Frontend Developer Career Path</li>
+                                
+                                <li class="mb-2">🏆 Building an Ethereum Blockchain App</li>
+                                <li class="mb-2">🏆 Programming Foundations: Algorithms</li>
+                                <li class="mb-2">🏆 Programming Foundations: Design Patterns</li>
+                                <li class="mb-2">🏆 Python Parallel and Concurrent Programming Part 1</li>
+                                <li class="mb-2">🏆 First Look: Python 3.9</li>
+                                <li class="mb-2">🏆 Cryptocurrency Foundations</li>
                                 <li class="mb-2">🏆 Data Manipulation with pandas</li>
                                 <li class="mb-2">🏆 Introduction to Data Visualization with Seaborn</li>
                                 <li class="mb-2">🏆 Learning PHP (2015)</li>
+                                <li class="mb-2">🏆 Public Speaking Foundations</li>
+                                <li class="mb-2">🏆 Establishing Credibility as a Speaker</li>
+                                <li class="mb-2">🏆 How to Organize Your Time and Your Life</li>
+                                <li class="mb-2">🏆 How to Work Smarter, Not Harder</li>
                             </ul>
                         </div>
                     </div>
@@ -439,7 +481,7 @@
                     <ul class="social-links list-unstyled mt-4">
                         <li><a href="mailto:ahmedbilal575@gmail.com"><ion-icon name="mail-outline"></ion-icon></a></li>
                         <li><a href="https://www.linkedin.com/in/ahmadshaikhk"><ion-icon name="logo-linkedin"></ion-icon></a></li>
-                        <li><a href="tel:03123086009"><ion-icon name="call-outline"></ion-icon></a></li>
+                        <li><a href="tel:+923123086009"><ion-icon name="call-outline"></ion-icon></a></li>
                     </ul>
                 </div>
             </div>
